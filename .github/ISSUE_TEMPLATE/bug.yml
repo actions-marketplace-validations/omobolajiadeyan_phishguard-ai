@@ -1,0 +1,29 @@
+name: Bug report
+description: Report reproducible incorrect or broken behavior
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Use a synthetic or public-safe sample.
+      placeholder: Include the command, input, and observed output.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Python and operating system
+      placeholder: Python 3.12 on Windows 11
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Safety
+      options:
+        - label: I removed credentials, personal data, and active malicious payloads.
+          required: true
