@@ -1,6 +1,8 @@
 # PhishGuard AI
 
 [![Tests](https://github.com/omobolajiadeyan/phishguard-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/omobolajiadeyan/phishguard-ai/actions/workflows/tests.yml)
+[![Release](https://img.shields.io/github/v/release/omobolajiadeyan/phishguard-ai?style=flat-square)](https://github.com/omobolajiadeyan/phishguard-ai/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Maintainer](https://img.shields.io/badge/Maintainer-Omobolaji_Adeyan-0A66C2?style=flat-square)](https://github.com/omobolajiadeyan)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-2ea44f?style=flat-square)](CONTRIBUTING.md)
 
@@ -117,6 +119,7 @@ researchers, and first-time open-source contributors.
   for design questions and detection ideas.
 - See [ROADMAP.md](ROADMAP.md) for current priorities.
 - Accepted contributors are credited in [AUTHORS.md](AUTHORS.md).
+- Releases and notable changes are recorded in [CHANGELOG.md](CHANGELOG.md).
 
 ## Project Leadership
 
@@ -128,3 +131,8 @@ researchers, and first-time open-source contributors.
 
 **Omobolaji Adeyan** - Cybersecurity Engineer
 [GitHub](https://github.com/omobolajiadeyan)
+
+## License and Citation
+
+PhishGuard AI is available under the [MIT License](LICENSE). The project may
+be cited using the metadata in [CITATION.cff](CITATION.cff).
